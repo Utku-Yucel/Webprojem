@@ -1,7 +1,32 @@
-body{
-    background-image: url("alfons-morales-410757-unsplash.jpg");
+body {
+    background-image:url( alfons-morales-410757-unsplash.jpg);
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 980px;
+    margin: auto;
 }
 
-.form-group{
-    text-align: left;
+
+
+.content {
+    background-color: aliceblue;
+    margin: 0 auto;
+    width:800px;
+}
+.form-control{
+
+    height:25px ;
+    width: 500px;
+
+}
+textarea{
+    height:200px ;
+    width: 500px;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
 }
