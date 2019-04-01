@@ -3,17 +3,19 @@ body {
     margin: 0;
     padding: 0;
 }
-.wrap{
-    width: 980px;
-    margin: auto;
-}
 
+.bölüm1{
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+}
 
 
 .content {
     background-color: aliceblue;
-    margin: 0 auto;
-    width:800px;
+    margin:  auto;
+    width:900px;
 }
 .form-control{
 
@@ -21,7 +23,7 @@ body {
     width: 500px;
 
 }
-textarea{
+.textarea{
     height:200px ;
     width: 500px;
 }
@@ -29,4 +31,17 @@ textarea{
 .header{
     margin: 0;
     padding: 0;
+}
+
+article{
+    
+}
+.form-group{
+    text-align: left;
+}
+#exampleInputPassword1{
+    margin: 0 auto;
+}
+#exampleInputEmail1{
+    margin: auto;
 }
