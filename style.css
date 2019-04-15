@@ -4,45 +4,18 @@ body {
     padding: 0;
 }
 
-.bölüm1{
-    background-color: white;
-    text-align: center;
-    margin: 0 auto;
-    width: 900px;
-}
-
 
 .content {
     background-color: aliceblue;
-    margin:  auto;
+    margin:auto;
+    min-height: 400px;
+    height: auto;
     width:900px;
-	padding:10px;
+	padding:20px;
 }
-.form-control{
 
-    height:25px ;
-    width: 500px;
-
-}
-.textarea{
-    height:200px ;
-    width: 500px;
-}
 
 .header{
     margin: 0;
     padding: 0;
-}
-
-article{
-    
-}
-.form-group{
-    text-align: left;
-}
-#exampleInputPassword1{
-    margin: 0 auto;
-}
-#exampleInputEmail1{
-    margin: auto;
 }
