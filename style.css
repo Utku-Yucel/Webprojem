@@ -1,16 +1,29 @@
 
-
-.content {
-    background-color: aliceblue;
-    margin:auto;
-    min-height: 400px;
-    height: auto;
-    width:900px;
-	padding:20px;
+@font-face {
+  font-family: 'HarryP';
+  src: url('font/HarryP.eot');
+  src: url('font/HarryP.eot?#iefix') format('embedded-opentype'),
+       url('font/HarryP.svg#HarryP') format('svg'),
+       url('font/HarryP.ttf') format('truetype'),
+       url('font/HarryP.woff') format('woff'),
+       url('font/HarryP.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MiddleEarth';
+  src: url('font/MiddleEarth.eot');
+  src: url('font/MiddleEarth.eot#iefix') format('embedded-opentype'),
+       url('font/MiddleEarth.svg#MiddleEarth') format('svg'),
+       url('font/MiddleEarth.ttf') format('truetype'),
+       url('font/MiddleEarth.woff') format('woff'),
+       url('font/MiddleEarth.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-header{
 
+header{
   position: fixed;
   z-index: 999;
   top: 0px;
@@ -21,11 +34,48 @@ header{
 body,html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #28342a;
-}
-.icerik{
-  background-image: url(wp/wallhaven-137057.jpg);
+  width: 100%;
+  padding: 0;
 }
 
- 
+#particles-js{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top:0;
+}
+#id1{
+  font-family: HarryP;
+  position: relative;
+  float: left;
+}
+#id2{
+  font-family: MiddleEarth;
+  position: relative;
+  float: left;
+}
+.nav-item1{
+  font-family: MiddleEarth;
+  font-size: 20px;
+}
+.nav-item2{
+  font-family: HarryP;
+  font-size: 25px;
+}
+.nav-item3{
+  font-family: MiddleEarth;
+  font-size: 20px;
+}
+.nav-item4{
+  font-family: HarryP;
+  font-size: 25px;
+}
+.nav-item5{
+  font-family: MiddleEarth;
+  font-size: 20px;
+}
+
+
+
+
