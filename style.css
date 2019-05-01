@@ -23,13 +23,6 @@
 }
 
 
-header{
-  position: fixed;
-  z-index: 999;
-  top: 0px;
-  width: 100%;
-  height: 200px;
-} 
 
 body,html {
   height: 100%;
@@ -75,7 +68,26 @@ body,html {
   font-family: MiddleEarth;
   font-size: 20px;
 }
-
-
+.kayıt1{
+  font-family: HarryP;
+  position: relative;
+  float: left;
+  font-size: 25px;
+}
+.kayıt2{
+  font-family: MiddleEarth;
+  position: relative;
+  float:left;
+  font-size: 20px;
+}
+.yazarlar{
+  position: fixed;
+  top: 100px;
+  left: 500px;
+}
+.baslık1{
+  font-family: MiddleEarth;
+  color: aliceblue;
+}
 
 
