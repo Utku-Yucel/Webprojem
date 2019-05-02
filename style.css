@@ -69,6 +69,7 @@ body,html {
   font-family: MiddleEarth;
   font-size: 20px;
 }
+
 .kayıt1{
   font-family: HarryP;
   position: relative;
@@ -111,4 +112,80 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color:darkgray;
   padding: 20px;
+}
+.icerik{
+  top: 100px;
+  position: absolute;
+  float:left;
+  width: 500px;
+}
+.card-title1{
+  font-family: HarryP;
+  font-size: 35px;
+}
+.card-title2{
+  font-family: HarryP;
+  font-size: 35px;
+}
+.card-title3{
+  font-family: HarryP;
+  font-size: 35px;
+}
+.card-text1{
+  font-family: HarryP;
+  font-size: 23px;
+}
+.card-text2{
+  font-family: HarryP;
+  font-size: 23px;
+}
+.card-text3{
+  font-family: HarryP;
+  font-size: 23px;
+}
+.icerik2{
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  right: 10px;
+  border-width: 100px;
+  border-style: solid;
+  border: 100px;
+  border-color: aliceblue;
+  background-color: whitesmoke;
+}
+
+.indexicerik{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row;
+}
+.sitebaslik{
+  top: 150px;
+  position: absolute;
+  left: 5px;
+}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
 }
